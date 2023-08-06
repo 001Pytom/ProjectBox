@@ -922,6 +922,18 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
 .min-w-\[271px\] {
   min-width: 271px;
 }
@@ -2036,8 +2048,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/FigmaImg\/heroo9\.webp\'\)\] {
-  background-image: url('../FigmaImg/heroo9.webp');
+.bg-\[url\(\'\.\.\/images\/heroo9\.webp\'\)\] {
+  background-image: url('../images/heroo9.webp');
 }
 
 .bg-\[url\(\'\.\.\/public\/images\/section4\.png\'\)\] {
@@ -2046,14 +2058,6 @@ video {
 
 .bg-\[url\(\.\.\/public\/images\/unsplash\.png\)\] {
   background-image: url(../public/images/unsplash.png);
-}
-
-.bg-\[url\(\'\.\.\/\/heroo9\.webp\'\)\] {
-  background-image: url('..//heroo9.webp');
-}
-
-.bg-\[url\(\'\.\.\/images\/heroo9\.webp\'\)\] {
-  background-image: url('../images/heroo9.webp');
 }
 
 .decoration-slice {

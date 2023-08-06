@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>TeehatFigmaClone3</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="antialiased">
+    <div class="relative min-h-screen">
+
+        <div id="phone-nav"
+            class="phone-nav transform top-[9%] -translate-x-full absolute z-10 w-3/4 min-h-[90vh] bg-Blue1 text-white  p-5 justify-between flex md:hidden ">
+            <ul class="flex flex-col space-y-20 ">
+                <a href="#Hero" class="px-4 py-2 hover:bg-white rounded-md block">
+                    <li class=" text-2xl hover:text-orange1 cursor-pointer">Home</li>
+                </a>
+                <a href="#about-us"
+                    class="text-2xl px-4 py-2 hover:text-orange1 cursor-pointer  hover:bg-white rounded-md block">
+                    <li>About Us</li>
+                </a>
+                <a href="#"
+                    class="text-2xl  hover:text-orange1 cursor-pointer  px-4 py-2 hover:bg-white rounded-md block">
+                    <li>Projects</li>
+                </a>
+                <a href="#services"
+                    class="text-2xl  hover:text-orange1 cursor-pointer px-4 py-2 hover:bg-white rounded-md block">
+                    <li>Servicies</li>
+                </a>
+
+                <a href="#contact"
+                    class="text-2xl text-orange1  hover:text-black cursor-pointer px-4 py-2 hover:bg-white rounded-md block">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+            <button class="absolute right-0 p-3 focus:outline-none  hover:bg-white hover:text-Blue1  rounded-md "
+                onclick="reverse(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+
+            </button>
+        </div>
+        <!-- nav -->
+
+        <nav class=" flex md:justify-around items-center bg-white w-full h-20 fixed top-0 z-10 ">
+            <button
+                class="absolute right-0 p-5 focus:outline-none  hover:bg-white hover:text-Blue1  rounded-md  md:hidden"
+                onclick="onToggleMenu(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+            <div class="flex gap-3.5 ">
+                <img src="../public/images/random-symboles-3.png" alt="logo">
+                <h1 class=" text-3xl italic font-bold  text-bluelogo">The Box</h1>
+            </div>
+            <ul class="hidden md:flex items-start gap-12">
+                <a href="#Hero">
+                    <li class="text-lg hover:text-orange1 cursor-pointer">Home</li>
+                </a>
+                <a href="#about-us" class="text-lg  hover:text-orange1 cursor-pointer">
+                    <li>About Us</li>
+                </a>
+                <a href="#" class="text-lg  hover:text-orange1 cursor-pointer">
+                    <li>Projects</li>
+                </a>
+                <a href="#services" class="text-lg  hover:text-orange1 cursor-pointer">
+                    <li>Servicies</li>
+                </a>
+                <a href="#contact" class="text-lg text-orange1  hover:text-black cursor-pointer">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </nav>
+
+        <!-- hero section -->
+        <div id="Hero"
+            class="relative min-h-screen bg-[url('../images/heroo9.webp')] bg-no-repeat bg-cover bg-center w-full">
+
+            <div
+                class="absolute bg-Blue1 text-white text-center max-w-[416px] text-base bottom-0 right-0 flex flex-col gap-5 pt-5 px-4 items-center rounded-tl-sm rounded-tr-sm">
+                <h5 class="text-xl font-bold">Feature Projects </h5>
+                <p class=" pb-4 text-2xl font-normal">The National University of <br>Architecture</p>
+                <div class="flex items-center cursor-pointer hover:bg-slate-600">
+                    <a href="" class=><button
+                            class=" w-[208px] bg-black border-r-2 border-r-white p-2 text-lg hover:bg-slate-600"> &#8592
+                            Back</button> </a>
+                    <a href=""> <button class=" w-[208px] bg-black p-2 text-lg hover:bg-slate-600">Next
+                            &#8594</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section1 -->
+
+    <div class=" text-center max-w-full min-h-[27rem] flex flex-col items-center justify-center">
+        <h1 class=" text-2xl font-bold  pt-10">Our Reputation</h1>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-12 pt-9 ">
+            <div class="p-4 flex flex-col gap-3 items-start justify-center border-[1px] border-ash w-[13.5rem]">
+                <img src="../public/images/icon2.png" alt="">
+                <h2 class="text-sm font-bold">Best Services</h2>
+                <p class="text-sm text-left">Nullam senectus porttitor in eget. Eget rutrum leo inter.</p>
+            </div>
+            <div class="p-4 flex flex-col gap-3 items-start justify-center border-[1px] border-ash w-[13.5rem]">
+                <img src="../public/images/icon2.png" alt="">
+                <h2>Best Teams</h2>
+                <p class="text-left text-sm">Cursus semper tellus volutpat aliquet lacus. </p>
+            </div>
+            <div class="p-4 flex flex-col gap-3 items-start justify-center border-[1px] border-ash w-[13.5rem]">
+                <img src="../public/images/icon1.png" alt="" class="w-[29px]">
+                <h2>Best Designs</h2>
+                <p class="text-sm text-left">Ultricies at ipsum nunc, tristique nam lectus.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- section2 -->
+
+    <div id="about-us" class="max-w-full min-h-screen relative pb-5">
+        <div
+            class="bg-[url(../public/images/unsplash.png)] bg-cover bg-no-repeat bg-center mt-[4.6rem] md:ml-[114px] max-w-[902px] min-h-[41.8rem]">
+        </div>
+        <div
+            class="max-w-[30.5rem]  bg-Blue1 md:absolute left-[50rem] right-0 top-[9rem] bottom-36 pr-[3.75rem]  text-white p-10">
+            <h3 class="text-4xl font-bold pt">About Us</h3>
+            <div class="pt-[37px] pb-[74px] space-y-5">
+                <p>For more than 30 years we have been delivering world-class construction and we’ve built many lasting
+                    relationships along the way.</p>
+
+                <p>We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and
+                    reliability when building in the U.S.</p>
+            </div>
+            <a href=""><button class=" w-[219px] bg-white rounded-sm  text-base px-5 py-4 text-Blue1 font-semibold">
+                    More on Our History</button> </a>
+        </div>
+    </div>
+
+    <!-- section3 -->
+
+    <div id="services"
+        class=" text-center pt-5 max-w-full min-h-screen flex flex-col items-center justify-center gap-12 bg-ash">
+        <h1 class=" text-2xl font-bold ">Servicies</h1>
+        <div class="flex gap-[6rem] flex-col md:flex-row">
+            <div
+                class=" flex flex-col gap-5 p-5 min-w-[271px] justify-center items-center shadow-md rounded-md bg-white ">
+                <img src="../public/images/icon3.png" alt="">
+                <div class="w-1/4">
+                    <hr>
+                </div>
+                <h2 class="text-sm font-bold text-Blue1">Construction</h2>
+            </div>
+            <div
+                class=" flex flex-col gap-5 p-5 min-w-[271px] justify-center items-center shadow-md bg-Blue1 rounded-md">
+                <img src="../public/images/icon4.png" alt="">
+                <div class="w-1/4">
+                    <hr>
+                </div>
+                <h2 class="text-sm font-bold text-white">Renovation</h2>
+            </div>
+            <div
+                class=" flex flex-col gap-5 p-5 min-w-[271px] justify-center items-center shadow-md rounded-md bg-white">
+                <img src="../public/images/icon5.png" alt="">
+                <div class="w-1/4">
+                    <hr>
+                </div>
+                <h2 class="text-sm font-bold text-Blue1">Consultation</h2>
+            </div>
+        </div>
+        <div class="flex gap-[6rem] flex-col md:flex-row">
+            <div
+                class=" flex flex-col gap-5 p-5 min-w-[271px] justify-center items-center shadow-md rounded-md bg-Blue1">
+                <img src="../public/images/icon6.png" alt="">
+                <div class="w-1/4">
+                    <hr>
+                </div>
+                <h2 class="text-sm font-bold text-white">Repair Services</h2>
+            </div>
+            <div
+                class=" flex flex-col gap-5 p-5 min-w-[271px] justify-center items-center shadow-md  rounded-md bg-white">
+                <img src="../public/images/icon7.png" alt="">
+                <div class="w-1/4">
+                    <hr>
+                </div>
+                <h2 class="text-sm font-bold text-Blue1">Architecture</h2>
+            </div>
+            <div
+                class=" flex flex-col gap-5 p-5 min-w-[271px] justify-center items-center shadow-md rounded-md bg-Blue1">
+                <img src="../public/images/icon8.png" alt="">
+                <div class="w-1/4">
+                    <hr>
+                </div>
+                <h2 class="text-sm font-bold text-white">Electric</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 4 org -->
+
+    <div id="contact"
+        class="container min-h-screen max-w-full flex flex-col-reverse md:flex-row items-center justify-center pt-20 pb-10 md:pt-[103px] md:pl-[179px] md:pr-[137px] gap-[5rem] md:gap-[10rem]">
+        <div class="flex flex-col gap-20 md:gap-0  md:flex-[0.8] relative ">
+            <section class="flex md:flex-row-reverse ">
+                <div
+                    class="p-7 flex flex-col items-start justify-center gap-[2px] w-[17.5rem] shadow-md rounded-[4px] border border-white relative ">
+                    <img src="../public/images/illus.png" alt="icon" class="absolute -right-7 -top-7">
+                    <h1 class="flex w-[7.2rem] flex-col justify-start text-6xl font-semibold pb-2 ">84</h1>
+                    <div class="flex pl-0 items-center gap-3 text-ash2 isolate">
+                        <img src="../public/images/rectangle-19.png" alt="rectangle-19">
+                        <p class="text-2xl ">Happy Clients</p>
+                    </div>
+                </div>
+                <div class=""></div>
+            </section>
+            <section class=" md:absolute md:top-[100px]">
+                <div class="">
+                    <div
+                        class="p-7 flex flex-col items-start justify-center gap-[2px] w-[17.5rem] shadow-md rounded-[4px] border border-white relative -z-50">
+                        <img src="../public/images/illus4.png" alt="icon" class="absolute -right-7 -bottom-8">
+                        <h1 class="flex w-[7.2rem] flex-col justify-start text-6xl font-semibold pb-2 ">30</h1>
+                        <div class="flex pl-0 items-center gap-3 text-ash2">
+                            <img src="../public/images/rectangle-19.png" alt="rectangle-19">
+                            <p class="text-2xl ">Years in Business</p>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </section>
+            <section class="flex  md:flex-row-reverse md:absolute md:bottom-[204px] md:left-[258px]">
+                <div
+                    class="p-7 flex flex-col items-start justify-center gap-[2px]   w-[17.5rem] shadow-md rounded-[4px] border border-white relative ">
+                    <img src="../public/images/illus3.png" alt="icon" class="absolute -right-7 -top-7">
+                    <h1 class="flex w-[7.2rem] flex-col justify-start text-6xl font-semibold pb-2 ">37</h1>
+                    <div class="flex pl-0 items-center gap-3 text-ash2">
+                        <img src="../public/images/rectangle-19.png" alt="rectangle-19">
+                        <p class="text-2xl ">Awards Win</p>
+                    </div>
+                </div>
+
+                <div></div>
+            </section>
+            <section class="md:pl-8 md:absolute md:bottom-[99px]">
+                <div
+                    class="p-7 flex flex-col items-start justify-center gap-[2px]  w-[17.5rem] md:w-[20.5rem] shadow-md rounded-[4px] border border-white relative -z-50">
+                    <img src="../public/images/illus2.png" alt="icon" class="absolute -left-7 -top-8">
+                    <h1 class="flex w-[7.2rem] flex-col justify-start text-6xl font-semibold pb-2 ">123</h1>
+                    <div class="flex pl-0 items-center gap-3 text-ash2">
+                        <img src="../public/images/rectangle-19.png" alt="rectangle-19">
+                        <p class="text-2xl ">Projects Completed</p>
+                    </div>
+                </div>
+                <div></div>
+            </section>
+        </div>
+        <div class="flex flex-col items-start justify-center gap-10 ">
+            <h2 class=" max-w-[22.4rem]  text-4xl md:text-6xl font-bold text-Blue1">30
+                Years Experience</h2>
+            <p class="max-w-[330px] text-lg md:text-xl text-ash2">Our company has been the leading provided construction
+                services
+                to
+                clients throughout the USA since 1988.
+            </p>
+            <a href=""><button class="px-5 py-4 rounded-sm bg-Blue1 text-white text-lg font-semibold ">Contact
+                    Us</button></a>
+        </div>
+    </div>
+    <!-- section 4 -->
+
+    <div
+        class="  max-w-full min-h-[300px] bg-[url('../public/images/section4.png')] bg-cover bg-center bg-no-repeat text-white flex  flex-col md:flex-row justify-around items-center space-y-10 mt-2 md:mt-0">
+        <div>
+            <h3 class=" text-md pt-5 text-center md:text-left md:text-4xl font-bold">Free Consultation with excpetional
+                quality</h3>
+            <p class="text-center md:text-left  md:text-2xl mt-7 cursor-pointer">Just one call away: <a href=""><span
+                        class="underline">+84 1102
+                        2703</span></a>
+            </p>
+
+        </div>
+        <div>
+            <a href=""><button class="border-2 rounded-sm  border-white py-5 px-5 cursor-pointer text-lg">Get your
+                    consultation</button></a>
+        </div>
+    </div>
+
+    <!-- section 5 -->
+
+
+    <div class="bg-ash min-h-screen max-w-full md:items-center flex flex-col justify-center space-y-9 p-3 md:p-0">
+        <h3 class=" text-md pt-5   md:text-4xl font-bold">What can we do for you?</h3>
+        <p class="md:text-center   md:text-2xl mt-7 cursor-pointer">We are ready to work on a project of any
+            complexity,<br>whether it’s commercial or residential.</p>
+        <form action="" class="space-y-5">
+            <input type="text" placeholder="Your Name" required class="mr-8 outline-none border-none  p-2 w-[280px]">
+            <input type="email" name="" id="" placeholder="Email" required
+                class="outline-none border-none p-2 w-[280px]"> <br>
+            <input type="text" name="" id="" placeholder="Reason For Contacting"
+                class="mr-8 outline-none border-none p-2 w-[280px]">
+            <input type="number" placeholder="Phone" class="outline-none border-none p-2 w-[280px]"><br>
+            <textarea rows="4" cols="50" name="comment" form="usrform"
+                class="text-left outline-none border-none p-2 md:w-[595px]">
+                Type your text here...</textarea>
+        </form>
+        <a href=""><button class=" w-[271px] bg-Blue1 rounded-sm  text-base px-5 py-4  font-semibold text-white">
+                Submit</button> </a>
+    </div>
+
+    <!-- subfooter -->
+    <div
+        class="flex flex-col  md:flex-row justify-around md:items-center min-h-[377px] max-w-full p-2 md:p-0 cursor-pointer">
+        <div class="flex flex-col md:space-y-8">
+            <p><span class="text-Blue1 text-xl font-medium mr-3">ADDRESS: </span> 6391 Elgin St. Celina, Delaware 10299
+            </p>
+            <p> <span class="text-Blue1 text-xl font-medium mr-6">PHONE: </span> +84 1102 2703</p>
+            <p><span class="text-Blue1 text-xl font-medium mr-7">EMAIL: </span> +84 1102 2703</p>
+            <div class="hidden md:flex gap-3.5 ">
+                <img src="../public/images/random-symboles-3.png" alt="">
+                <h1 class=" text-3xl italic font-bold  text-bluelogo">The Box</h1>
+            </div>
+        </div>
+        <div class="flex flex-col  md:space-y-6 ">
+            <p class="text-Blue1 text-xl font-medium">NEWSLETTER:</p>
+            <div class="flex">
+                <input type="email" name="" id="" placeholder=" Your email here"
+                    class="flex-1 border-none outline-none">
+                <a href=""><button
+                        class="  w-[100px] md:w-[136px] bg-orange1 rounded-sm  text-base px-4 py-3 font-semibold text-white">
+                        Subscribe</button> </a>
+            </div>
+            <p class="text-Blue1 text-xl font-medium">SOCIAL: </p>
+
+            <div class="flex  gap-5 items-center justify-start">
+                <a href=""> <img src="../public/images/facebook.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/fatihat-mohammed-56aa94238"> <img
+                        src="../public/images/linkedin.png" alt=""></a>
+                <a href="https://twitter.com/001PyTom?t=2O5JkT41UV3XbAfdRGMvAA&s=09" target="_blank"> <img
+                        src="../public/images/twitter.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="min-h-[70px] bg-Blue1 flex justify-around items-center
+     text-white text-left">
+        <p>Teehat first Complete Tailwindcss ©
+            2023.</p>
+    </footer>
+
+
+    <script>
+        function onToggleMenu(e) {
+            document.getElementById("phone-nav").style.transform = "translate(0px)"
+            document.getElementById("phone-nav").style.transition = 'all 0.5s ease-out 0.5s'
+            document.getElementById("phone-nav").style.transform = "translate(0px)"
+        }
+        function reverse(e) {
+            document.getElementById("phone-nav").style.display = "none"
+
+        }
+    </script>
+</body>
+
+
+</html>

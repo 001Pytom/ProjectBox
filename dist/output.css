@@ -538,9 +538,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 1000px) {
   .container {
-    max-width: 950px;
+    max-width: 1000px;
   }
 }
 
@@ -920,18 +920,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[250px\] {
-  width: 250px;
 }
 
 .min-w-\[271px\] {
@@ -2869,7 +2857,7 @@ video {
   text-align: center;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 1000px) {
   .md\:absolute {
     position: absolute;
   }
